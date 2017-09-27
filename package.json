@@ -1,0 +1,24 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Friend Finder App that connects you the most compatiable friend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottjac01/friend-finder.git"
+  },
+  "author": "scott jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottjac01/friend-finder/issues"
+  },
+  "homepage": "https://github.com/scottjac01/friend-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5"
+  }
+}
