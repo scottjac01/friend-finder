@@ -5,8 +5,8 @@ var path = require("path");
 
 // Configure the Express application
 var app = express();
-var PORT = 3100;
-//var PORT = process.env.PORT;  //this for the heruko
+//var PORT = 3100;
+var PORT = process.env.PORT;  //this for the heruko
 
 // Expose the public directory to access CSS files
 app.use(express.static(path.join(__dirname, "./app/public")));
